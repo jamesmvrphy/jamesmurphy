@@ -1,0 +1,727 @@
+@media screen and (max-width: 834px) { 
+
+  #tablet_and_desktop_hr {
+    display: none;
+  }
+  #contact_purple_img {
+    margin-top: 20px;
+
+  }
+
+  #bottom_header {
+    display: none;
+  }
+
+  body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+  }
+
+  /* header */
+
+  header {
+    color: #F8B195;
+    background-color: #6C4F99;
+    padding: 20px 0px 20px 40px;
+  }
+
+  h1 + h2 {
+    color: white;
+  }
+
+  /* navigation and social media */
+
+  nav {
+    font-size: 14pt;
+    background-color: #F8B195;
+    padding: 20px 40px 20px 20px;
+  }
+
+  #nav_local {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav a {
+    color: white;
+  }
+
+  nav #nav_local a {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  nav #nav_social {
+    display: none;
+  }
+
+  #mobile_social {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  #mobile_social img {
+    height: 60px;
+    width: 60px;
+
+  }
+
+  nav .current {
+    color: #6C4F99;
+    border-bottom: 3px solid #6C4F99;
+  }
+
+  /* styled intro and styled quote */
+
+  #line_1 {
+    background-color: #6C4F99;
+    color: #F8B195;
+  }
+  #line_2 {
+    background-color: #F8B195;
+    color: #6C4F99;
+  }
+
+  #big {
+    /* intro */ font-size: 27pt;
+
+  }
+
+  #big_2 {
+    /* quote */ font-size: 16pt;
+  }
+
+  /* picture of me */
+
+  #contents > img{
+    display: none;
+  }
+
+  /* decorative image */
+
+
+  /* footer */
+
+  * footer {
+    margin-top:20px;
+    color: white;
+    background-color: #6C4F99;
+    padding: 20px 0px 20px 40px;
+    border-top: 20px solid #F8B195;
+  }
+
+  footer a {
+    color: #F8B195;
+  }
+
+  /* table */
+
+  #tablet_and_desktop {
+    display: none;
+  }
+
+   #mobile {
+    background-color: white;
+    border-collapse: collapse;
+    width: justify;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+
+  td, th {
+    padding: 7vw;
+    border: 2px solid black;
+  }
+
+  th {
+    background-color: #F8B195;
+    color: #6C4F99;
+  }
+
+  td {
+    color: black;
+  }
+
+  /* webpage contents */
+
+  #contents p, #contents li, h4 {
+    color: black;
+  }
+
+  #contents {
+    background-color: white;
+    color: #6C4F99;
+  }
+
+  #contents p {
+    padding-right: 40px;
+    text-indent: 40px;
+  }
+
+  #resume h4, #resume h4 ~ p, #resume ul{
+    font-size: 12pt;
+
+    /* There was a lot of white space on my resume page,
+    so I increased the font-size. */
+
+  }
+
+  #contact_text {
+    margin-right: 40px;
+  }
+
+  /* parent grid container (to implement 'sidebar') */
+
+  #grid {
+    padding-left: 40px;
+  }
+
+  /* study music 'sidebar' */
+
+  #side {
+    display: none;
+    background-color: #6C4F99;
+    color: white;
+    padding: 20px;
+  }
+
+  #side h3 {
+    margin-top: 0;
+  }
+
+  #side li {
+    padding-bottom: 20px;
+  }
+
+  #side img {
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid white;
+  }
+
+  #bottom {
+    display: none;
+  }
+
+  /* contact form */
+
+  input[type=submit] {
+    width: 130px;
+    height: 50px;
+    font-size: 12pt;
+    background-color: #6C4F99;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* styling highlighted text */
+
+  p::selection {
+    background-color: #F8B195;
+    color: white;
+
+  }
+
+  html {
+    zoom: 110%;
+  }
+}
+
+@media screen and (min-width: 1200px) { 
+
+  #contact_putple_img {
+    margin-top: 20px;
+  }
+
+  #bottom_header {
+    display: none;
+  }
+
+  body {
+    font-family: sans-serif;
+    background-color: white;
+    border-left: 40px solid #F8B195;
+    margin: 0;
+  }
+
+  /* header */
+
+  header {
+    color: #F8B195;
+    background-color: #6C4F99;
+    padding: 20px 0px 20px 40px;
+  }
+
+  h1 + h2 {
+    color: white;
+  }
+
+  /* navigation and social media */
+
+  nav {
+    background-color: #F8B195;
+    padding: 10px 40px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  nav a {
+    color: white;
+  }
+
+  nav #nav_local a {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  nav #nav_local a:hover {
+    color: white;
+    border-bottom: 3px solid white;
+  }
+
+  nav #nav_social {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav #nav_social a img {
+    border-top: 4px solid transparent;
+    
+    /* The social media buttons weren't centered vertically,
+    so I used a transparent border to solve that problem. */
+  }
+
+  nav #nav_social a img:hover {
+    border-top: 4px solid #6C4F99;
+  }
+
+  nav .current {
+    color: #6C4F99;
+    border-bottom: 3px solid #6C4F99;
+  }
+
+  /* styled intro and styled quote */
+
+  #line_1 {
+    background-color: #6C4F99;
+    color: #F8B195;
+  }
+  #line_2 {
+    background-color: #F8B195;
+    color: #6C4F99;
+  }
+
+  #big {
+    /* intro */ font-size: 3vw;
+
+  }
+
+  #big_2 {
+    /* quote */ font-size: 2vw;
+  }
+
+  /* picture of me */
+
+  #contents > img{
+    float: left;
+    padding-top: 10px;
+    margin-right: 40px;
+    border-bottom: 20px solid #F8B195;
+  }
+
+  /* decorative image */
+
+  #purple img {
+    border-bottom: 20px solid #F8B195;
+  }
+
+  /* footer */
+
+  * footer {
+    color: white;
+    background-color: #6C4F99;
+    padding: 20px 0px 20px 40px;
+    border-top: 20px solid #F8B195;
+  }
+
+  footer a {
+    color: #F8B195;
+  }
+
+  /* table */
+
+  #mobile {
+    display: none;
+  }
+
+  table {
+    background-color: white;
+    border-collapse: collapse;
+    width: justify;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+
+  td, th {
+    padding: 1.8vw;
+    border: 2px solid black;
+  }
+
+  th {
+    background-color: #F8B195;
+    color: #6C4F99;
+  }
+
+  td {
+    color: black;
+  }
+
+  /* webpage contents */
+
+  #contents p, #contents li, h4 {
+  	color: black;
+  }
+
+  #contents {
+    background-color: white;
+    color: #6C4F99;
+  }
+
+  #contents p {
+    padding-right: 40px;
+    text-indent: 40px;
+  }
+
+  #resume h4, #resume h4 ~ p, #resume ul{
+    font-size: 12pt;
+
+    /* There was a lot of white space on my resume page,
+    so I increased the font-size. */
+
+  }
+
+  #contact_text {
+    margin-right: 40px;
+  }
+
+  /* parent grid container (to implement 'sidebar') */
+
+  #grid {
+    display: grid;
+    grid-template-columns: auto 250px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* study music 'sidebar' */
+
+  #side {
+    background-color: #6C4F99;
+    color: white;
+    padding: 20px;
+  }
+
+  #side h3 {
+    margin-top: 0;
+  }
+
+  #side li {
+    padding-bottom: 20px;
+  }
+
+  #side img {
+    margin-top: 20px;
+    border: 2px solid white;
+  }
+
+  #bottom {
+    display: none;
+  }
+
+  /* contact form */
+
+  input[type=submit] {
+    width: 130px;
+    height: 50px;
+    font-size: 12pt;
+    background-color: #6C4F99;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    color: #F8B195;
+  }
+
+  /* styling highlighted text */
+
+  p::selection {
+    background-color: #F8B195;
+    color: white;
+
+  }
+
+  html {
+    zoom: 110%;
+  }
+
+   #mobile_social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 835px) {
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    border-left: 40px solid #F8B195;
+    border-right: 40px solid #F8B195;
+    margin: 0;
+  }
+
+  /* header */
+
+  header {
+    color: #F8B195;
+    background-color: #6C4F99;
+    padding: 20px 0px 20px 40px;
+  }
+
+  h1 + h2 {
+    color: white;
+  }
+
+  /* navigation and social media */
+
+  nav {
+    background-color: #F8B195;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  nav a {
+    color: white;
+  }
+
+  nav #nav_local a {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  nav #nav_local a:hover {
+    color: white;
+    border-bottom: 3px solid white;
+  }
+
+  nav #nav_social {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav #nav_social a img {
+    border-top: 4px solid transparent;
+    
+    /* The social media buttons weren't centered vertically,
+    so I used a transparent border to solve that problem. */
+  }
+
+  nav #nav_social a img:hover {
+    border-top: 4px solid #6C4F99;
+  }
+
+  nav .current {
+    color: #6C4F99;
+    border-bottom: 3px solid #6C4F99;
+  }
+
+  /* styled intro and styled quote */
+
+  #line_1 {
+    background-color: #6C4F99;
+    color: #F8B195;
+  }
+  #line_2 {
+    background-color: #F8B195;
+    color: #6C4F99;
+  }
+
+  #big {
+    /* intro */ font-size: 3vw;
+
+  }
+
+  #big_2 {
+    /* quote */ font-size: 2vw;
+  }
+
+  /* picture of me */
+
+  #contents > img{
+    float: left;
+    padding-top: 10px;
+    margin-right: 40px;
+    border-bottom: 20px solid #F8B195;
+  }
+
+  /* decorative image */
+
+  #purple img {
+    border-bottom: 20px solid #F8B195;
+  }
+
+  /* footer */
+
+  * footer {
+    color: white;
+    background-color: #6C4F99;
+    padding: 20px 0px 20px 40px;
+    border-top: 20px solid #F8B195;
+  }
+
+  footer a {
+    color: #F8B195;
+  }
+
+  /* table */
+
+  #mobile {
+    display: none;
+  }
+
+  table {
+    background-color: white;
+    border-collapse: collapse;
+    width: justify;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+
+  td, th {
+    padding: 1.7vw;
+    border: 2px solid black;
+  }
+
+  th {
+    background-color: #F8B195;
+    color: #6C4F99;
+  }
+
+  td {
+    color: black;
+  }
+
+  /* webpage contents */
+
+  #contents p, #contents li, h4 {
+    color: black;
+  }
+
+  #contents {
+    background-color: white;
+    color: #6C4F99;
+  }
+
+  #contents p {
+    padding-right: 40px;
+    text-indent: 40px;
+  }
+
+  #resume h4, #resume h4 ~ p, #resume ul{
+    font-size: 12pt;
+
+    /* There was a lot of white space on my resume page,
+    so I increased the font-size. */
+
+  }
+
+  #contact_text {
+    margin-right: 40px;
+  }
+
+  #contact_putple_img {
+    margin-top: 20px;
+  }
+
+  /* parent grid container (to implement 'sidebar') */
+
+  /* study music 'sidebar' */
+
+  #bottom_header {
+    text-decoration: underline;
+    background-color: #6C4F99;
+    color: white;
+    padding: 20px 0px 20px 40px;
+    margin-bottom: 0;
+  }
+
+  #bottom {
+    padding: 0px 40px 40px 40px;
+    background-color: #6C4F99;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #bottom img {
+    border: 2px solid white;
+    width: 16%;
+  }
+
+  #side {
+    display: none;
+  }
+
+  /* contact form */
+
+  input[type=submit] {
+    width: 130px;
+    height: 50px;
+    font-size: 12pt;
+    background-color: #6C4F99;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    color: #F8B195;
+  }
+
+  /* styling highlighted text */
+
+  p::selection {
+    background-color: #F8B195;
+    color: white;
+
+  }
+
+  #contents {
+    margin: 20px 0px 40px 40px
+  }
+
+  html {
+    zoom: 110%;
+  }
+
+  #mobile_social {
+    display: none;
+  }
+}

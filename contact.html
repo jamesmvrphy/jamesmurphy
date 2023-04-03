@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>James Murphy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- header -->
+
+    <header>
+      <h1>James Murphy</h1>
+      <h2>CS Major at Dalhousie University</h2>
+    </header>
+
+    <!-- nav bar -->
+
+    <nav>
+
+      <!-- navigate website -->
+
+      <div id="nav_local">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html" class="current">Contact</a>
+      </div>
+
+      <!-- social media buttons -->
+
+      <div id="nav_social">
+
+        <a href="hello_world.txt" target="_blank"><img src="assets/instagram.png" alt="link to my instagram" height="30"></a>
+
+        <a href="hello_world.txt" target="_blank"><img src="assets/facebook.png" alt="link to my facebook" height="30"></a>
+
+      </div>
+      
+    </nav>
+
+    <section>
+
+
+      <!-- parent container for grid -->
+
+      <div id="grid">
+
+        <!-- child 1 for grid, main webpage contents -->
+
+        <div id="contents">
+
+          <h3>
+            Contact 
+          </h3>
+
+          <div id="mobile_social">
+
+            <a href="hello_world.txt" target="_blank"><img src="assets/instagram.png" alt="link to my instagram" height="30"></a>
+
+            <a href="hello_world.txt" target="_blank"><img src="assets/facebook.png" alt="link to my facebook" height="30"></a>
+
+          </div>
+
+          <hr id="tablet_and_desktop_hr">
+
+          <h4>Thank you for visiting my website!</h4>
+          
+          <h4 id="contact_text">
+            If you'd like to get in touch, you can
+            <a href="mailto:jm515862@dal.ca">send me an email</a>
+            at jm515862@dal.ca, or reach out to me via the form below.
+          </h4>
+
+          <form action="hello_world.txt" target="_blank" method="GET">
+
+            <!-- instead of hello_world.txt, try this url: 
+
+            https://wp.zybooks.com/form-viewer.php?fullname=James&email=jm515862%40dal.ca&language=python
+
+            it's from the textbook, and it actually displays the submitted information -->
+
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+              <label for="email_address">Email:</label>
+              <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+              <label for="reason">Reason for inquiry:</label>
+              <select id="reason" name="reason">
+                <option value="default">Select</option>
+                <option value="academic">Academic</option>
+                <option value="business">Business</option>
+                <option value="other">Other</option>
+              </select>
+            </p>
+
+            <p>
+              <input type="submit">
+            </p>
+
+          </form>
+          
+          <!-- decorative image -->
+
+          <div id="purple">
+
+            <img src="assets/purple.jpg" id="contact_purple_img" alt="purple background" width="100%">
+            
+          </div>
+
+          <hr>
+
+        </div>
+
+        <!-- child 2 for grid, study music 'sidebar' -->
+
+        <div id="side"> 
+
+          <h3>My Study Music:</h3>
+          <ul type="square" class="tablet_grid">
+            <li>
+              Dark Side of the Moon
+              <img src="assets/darkside.png" alt="album cover 1" width="140">
+            </li>
+            <li>
+              Electric Ladyland
+              <img src="assets/jimi.png" alt="album cover 2" width="135">
+            </li>
+            <li>
+              Abbey Road
+              <img src="assets/abbey.png" alt="album cover 3" width="135">
+            </li>
+            <li>
+              Disraeli Gears
+              <img src="assets/cream.png" alt="album cover 4" width="135">
+            </li>
+            <li>
+              Aoxomoxoa
+              <img src="assets/aoxomoxoa.png" alt="album cover 5" width="135">
+            </li>
+          </ol>
+
+        </div>
+
+        <h3 id="bottom_header">
+          My Study Music:
+        </h3>
+
+        <div id="bottom"> 
+              <img src="assets/darkside.png" alt="album cover 1" width="140">
+              <img src="assets/jimi.png" alt="album cover 2" width="135">
+              <img src="assets/abbey.png" alt="album cover 3" width="135">
+          <img src="assets/cream.png" alt="album cover 4" width="135">
+          <img src="assets/aoxomoxoa.png" alt="album cover 5" width="135">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- basic footer -->
+
+    <footer>
+      <p>&copy; 2023 James Murphy</p> 
+      <a href="mailto:jm515862@dal.ca">Email me</a> - jm515862@dal.ca
+    </footer>
+
+
+  </body>
+  
+</html>

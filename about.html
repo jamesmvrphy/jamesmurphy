@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>James Murphy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- header -->
+
+    <header>
+      <h1>James Murphy</h1>
+      <h2>CS Major at Dalhousie University</h2>
+    </header>
+
+    <!-- nav bar -->
+
+    <nav>
+
+      <!-- navigate website -->
+
+      <div id="nav_local">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="current">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- social media buttons -->
+
+      <div id="nav_social">
+
+        <a href="hello_world.txt" target="_blank"><img src="assets/instagram.png" alt="link to my instagram" height="30"></a>
+
+        <a href="hello_world.txt" target="_blank"><img src="assets/facebook.png" alt="link to my facebook" height="30"></a>
+
+      </div>
+      
+    </nav>
+
+    <section>
+
+
+      <!-- parent container for grid -->
+
+      <div id="grid">
+
+        <!-- child 1 for grid, main webpage contents -->
+
+        <div id="contents">
+
+          <!-- write-up -->
+
+          <h3>About</h3>
+
+          <hr>
+
+          <h4>Background Info</h4>
+          
+          <p>
+            I'm a computer science student at Dalhousie University. I moved from Toronto to Halifax about 3 years ago. For most of my life before that, I wasn't really a good student. I always procrastinated and came late to class, but midway through Grade 12, I became inspired to turn things around. After failing my Grade 11 English class and being a C student throughout high school, I decided to drop out so that I could come back the next year to try and do better. A lot of my teachers were skeptical, but I felt that if I truly applied myself, I would be able to get good grades. 
+          </p>
+
+          <p>
+            Then COVID happened. 
+          </p>
+
+          <p>
+            This really messed up my plans, and I didn't know what to do. I didn't want to come back the next year and take all my courses online. My dad and I eventually decided to move to Halifax where, conveniently, the high schools were still offering in-person education. When September came around, I buckled down and made sure to stay on top of my deadlines. I was determined to get into the engineering program at Dal, despite having a mark of 50 for Grade 12 math and never having taken Grade 11 chemistry. I had none of the prerequisites for any of my programs of choice, except a 75 in English (which I barely managed to pull off). It was a really hard semester. I failed my first calculus test. Nevertheless, I stuck to the plan.
+          </p>
+
+          <p>
+            Then June arrived and I got my report card. I ended up with a 95 in calculus, a 93 in chemistry, and an 80 in physics. I had never felt so accomplished in my whole life, and I got accepted into Dal's engineering, computer science, and finance programs. I chose computer science because of my love for math (also not a big fan of chemistry).
+          </p>
+
+          <!-- styled Pele quote, spans used for CSS purposes -->
+
+          <p id="big_2">
+            <span id="line_1"> 
+              "Success is no accident. It is hard work, perseverance, learning, studying, sacrifce, and most of all, love of what you are doing or learning to do."
+            </span>
+
+            <br>
+
+            <span id="line_2">
+              - Pele
+            </span>
+          </p>
+
+          <hr>
+
+          <!-- more writing -->
+
+          <h4>What Now?</h4>
+
+          <p>
+            These days, I'm a full-time university student taking web development, computer systems, and calculus 1. I live in residence at Risley Hall, and I love the immersive experience. There have been times when I've gone weeks without leaving campus because everything I need is right here.
+          </p>
+
+          <hr>
+
+          <!-- basic table -->
+
+          <h4>My Classes:</h4>
+
+          <table id="tablet_and_desktop">
+            <tr>
+              <th>Class</th>
+              <td>Computer Programming</td>
+              <td>Discrete Math</td>
+              <td>Calculus 1</td>
+              <td>Web Development</td>
+              <td>Computer Systems</td>
+            </tr>
+            <tr>
+              <th>Prof.</th>
+              <td>Dr. Eric Poitras</td>
+              <td>Dr. Angela Siegel</td>
+              <td>Dr. Alan Surovell</td>
+              <td>Dr. Rina Wehbe</td>
+              <td>Dr. Corey Degagne</td>
+            </tr>
+            <tr>
+              <th>Grade</th>
+              <td>A+</td>
+              <td>A</td>
+              <td colspan="3">
+                <center>
+                  <i>Not available yet!</i>
+                </center>
+              </td>
+          </table>
+
+          <table id="mobile">
+            <tr>
+              <th>Class</th>
+              <th>Prof.</th>
+              <th>Grade</th>
+            </tr>
+            <tr>
+              <td>Computer Programming</td>
+              <td>Dr. Eric Poitras</td>
+              <td>A+</td>
+            </tr>
+            <tr>
+              <td>Discrete Math</td>
+              <td>Dr. Angela Siegel</td>
+              <td>A</td>
+            </tr>
+            <tr>
+              <td>Calculus 1</td>
+              <td>Dr. Alan Surovell</td>
+              <td rowspan="3"><i>N/A</i></td>
+            </tr>
+            <tr>
+              <td>Web Development</td>
+              <td>Dr. Rina Wehbe</td>
+            </tr>
+            <tr>
+              <td>Computer Systems</td>
+              <td>Dr. Corey Degagne</td>
+            </tr>
+          </table>
+
+
+            <tr>
+          </table>
+
+
+        </div>
+
+        <!-- child 2 for grid, study music 'sidebar' -->
+
+        <div id="side"> 
+
+          <h3>My Study Music:</h3>
+          <ul type="square" class="tablet_grid">
+            <li>
+              Dark Side of the Moon
+              <img src="assets/darkside.png" alt="album cover 1" width="140">
+            </li>
+            <li>
+              Electric Ladyland
+              <img src="assets/jimi.png" alt="album cover 2" width="135">
+            </li>
+            <li>
+              Abbey Road
+              <img src="assets/abbey.png" alt="album cover 3" width="135">
+            </li>
+            <li>
+              Disraeli Gears
+              <img src="assets/cream.png" alt="album cover 4" width="135">
+            </li>
+            <li>
+              Aoxomoxoa
+              <img src="assets/aoxomoxoa.png" alt="album cover 5" width="135">
+            </li>
+          </ol>
+
+        </div>
+
+        <h3 id="bottom_header">
+          My Study Music:
+        </h3>
+
+
+
+        <div id="bottom"> 
+
+              <img src="assets/darkside.png" alt="album cover 1" width="140">
+              <img src="assets/jimi.png" alt="album cover 2" width="135">
+              <img src="assets/abbey.png" alt="album cover 3" width="135">
+              <img src="assets/cream.png" alt="album cover 4" width="135">
+              <img src="assets/aoxomoxoa.png" alt="album cover 5" width="135">
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- basic footer -->
+
+    <footer>
+      <p>&copy; 2023 James Murphy</p> 
+      <a href="mailto:jm515862@dal.ca">Email me</a> - jm515862@dal.ca
+    </footer>
+
+
+  </body>
+  
+</html>
